@@ -1,0 +1,39 @@
+#The below lines are the contents of local-manifest.xml.
+#local_manifest.xml should be created in .repo/local_manifests folder
+
+#Paste the below lines in that file. Some Lines are extra but they do not cause any harm.
+#Remove the Pdroid Line if u don't want Pdroid
+
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="platform/external/zlib" />
+  <remove-project name="platform/external/yaffs2" />
+  <remove-project name="platform/bootable/recovery" />
+  <project name="CyanogenMod/android_device_samsung_p1" path="device/samsung/p1" remote="github" revision="cm-10.1" />
+  <project name="CyanogenMod/android_device_samsung_p1-common" path="device/samsung/p1-common" remote="github" revision="cm-10.1" />
+  <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-10.1" />
+  <project name="CyanogenMod/android_kernel_samsung_p1" path="kernel/samsung/p1" remote="github" revision="cm-10.1" />
+  <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-10.1" />
+  <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-10.1" />
+  <project name="ParanoidAndroid/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" revision="cm-10.1" />
+  <project name="CyanogenMod/android_device_generic_armv7-a-neon" path="device/generic/armv7-a-neon" remote="github" revision="cm-10.1" />
+  <project name="CyanogenMod/android_device_generic_common" path="device/generic/common" remote="github" revision="cm-10.1" />
+  <project name="CyanogenMod/android_device_generic_goldfish" path="device/generic/goldfish" remote="github" revision="cm-10.1" />
+  <project name="wsot/pdroid-manager" path="packages/apps/PDroidManager" remote="github" revision="master" />
+  <project name="CyanogenMod/android_bootable_recovery" path="bootable/recovery" remote="github" revision="cm-10.1" />
+  <project name="CyanogenMod/android_external_yaffs2" path="external/yaffs2" remote="github" revision="cm-10.1" />
+  <project name="CyanogenMod/android_external_zlib" path="external/zlib" remote="github" revision="cm-10.1" />
+  <project name="CyanogenMod/android_external_bash" path="external/bash" remote="github" revision="cm-10.1" />
+  <project name="CyanogenMod/android_external_htop" path="external/htop" remote="github" revision="cm-10.1" />
+  <project name="CyanogenMod/android_external_libncurses" path="external/libncurses" remote="github" revision="cm-10.1" />
+  <project name="CyanogenMod/android_external_lsof" path="external/lsof" remote="github" revision="cm-10.1" />
+  <project name="CyanogenMod/android_external_lzo" path="external/lzo" remote="github" revision="cm-10.1" />
+  <project name="CyanogenMod/android_external_nano" path="external/nano" remote="github" revision="cm-10.1" />
+  <project name="CyanogenMod/android_external_openvpn" path="external/openvpn" remote="github" revision="cm-10.1" />
+  <project name="CyanogenMod/android_external_powertop" path="external/powertop" remote="github" revision="cm-10.1" />
+  <project name="CyanogenMod/android_external_rsync" path="external/rsync" remote="github" revision="cm-10.1" />
+  <project name="CyanogenMod/android_external_vim" path="external/vim" remote="github" revision="cm-10.1" />
+  <project name="CyanogenMod/android_packages_apps_CMFileManager" path="packages/apps/CMFileManager" remote="github" revision="cm-10.1" />
+  <project name="CyanogenMod/android_packages_apps_DSPManager" path="packages/apps/DSPManager" remote="github" revision="cm-10.1" />
+  <project name="CyanogenMod/android_packages_apps_Torch" path="packages/apps/Torch" remote="github" revision="cm-10.1" />
+</manifest>
